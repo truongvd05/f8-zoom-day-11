@@ -139,4 +139,10 @@
         align-items: center;
         flex-direction: row;
     }
+    .content-img {
+        /* overflow: hidden; */
+    }
+    .content-img {
+        width: 100%;
+    }
 }

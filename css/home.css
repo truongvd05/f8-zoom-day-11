@@ -17,7 +17,7 @@ html {
 }
 .header--wrap {
     overflow: hidden;
-    min-height: 100vh;
+    min-height: 100px;
     background-color: #f8ebc9;
     padding-bottom: 100px;
 }
@@ -146,13 +146,14 @@ html {
 
 /* heaer picture */
 .header--picture {
+    position: relative;
     display: flex;
     justify-content: center;
+    overflow: hidden
 }
 
 .header--picture__size {
     position: relative;
-    width: 330px;
     height: 476px;
     object-fit: cover;
     z-index: 2;
