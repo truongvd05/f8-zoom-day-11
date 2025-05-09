@@ -8,7 +8,9 @@
         width: 45%;
         left: 110px;
     }
-
+    .area-picture {
+        width: 325px;
+    }
 }
 
 @media (max-width: 1199.98px) {
