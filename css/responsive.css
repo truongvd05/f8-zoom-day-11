@@ -125,3 +125,18 @@
         width: 100%;
     }
 }
+
+@media (max-width: 575.98px) {
+    .service-img {
+    }
+    .content--information__text {
+        width: 100%;
+    }
+    .service--picture__btn {
+        left: 108px;
+    }
+    .information--right {
+        align-items: center;
+        flex-direction: row;
+    }
+}
