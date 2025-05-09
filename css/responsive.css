@@ -145,4 +145,9 @@
     .content-img {
         width: 100%;
     }
+    .header--content {
+        display: block;
+    }
+    .content-left-picture {
+    }
 }
