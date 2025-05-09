@@ -1,0 +1,125 @@
+
+
+@media (min-width: 1200px) {
+    .btn--service__all{
+        width: 150px;
+    }
+    .service--picture__btn {
+        width: 45%;
+        left: 110px;
+    }
+
+}
+
+@media (max-width: 1199.98px) {
+
+    .content-left {
+        overflow: hidden;
+    }
+    .content-left-picture {
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .future-img {
+        width: 340px;
+        height: 350px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 991.98px) {
+
+    .content-left-picture {
+        width: 100%;
+    }
+    .footer-locatin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon--tablet__none {
+        display: none;
+    }
+    .header--navbar {
+        display: none;
+    }
+    .picture--background,.picture--background__left,.header--picture-mark{
+        display: none;
+    }
+    .icon--tablet__none {
+        visibility: hidden;
+    }
+    .content-left {
+        overflow: hidden;
+    }
+    .informatin--about {
+        padding-top: 100px;
+    }
+    .future--first {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .future-mark {
+        display: none;
+    }
+    .header--content {
+
+    }
+    .header--text col {
+        display: block;
+        text-align: center;
+    }
+    .service--picture__btn {
+        left: 175px;
+        width: 40%;
+
+    }
+    .future-img {
+        width: auto;
+    }
+    .future--information {
+        overflow: hidden;
+    }
+    .area-picture {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 719.98px) {
+    .future-mark {
+        display: none;
+    }
+    .header--content {
+        display: flex;
+    }
+    .header--text {
+        text-align: center;
+        align-items: center;
+        padding-bottom:  20px;
+    }
+    .service--picture__btn {
+        left: 177px;
+    }
+    .service--picture__btn {
+        width: 30%;
+    }
+    .area-picture {
+        width: 400px;
+        height: 400px;
+    }
+    iframe {
+        padding-top: 20px;
+        width: 100%;
+    }
+    .content--btn {
+        width: 100%;
+    }
+    .service--picture__btn {
+        left: 85px;
+    }
+    .service--title {
+        width: 100%;
+    }
+}

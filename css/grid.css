@@ -299,7 +299,6 @@
         --row-column: 6;
     }
 
-    .row > [class*="col-xl-"]
     .col-xl-1 {
         --column-count: 1;
     }
@@ -364,7 +363,6 @@
     .container {
          width: 720px;
      }  
-
      /* gutter */
 
     .g-lg-0,
